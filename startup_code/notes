@@ -1,0 +1,5 @@
+monitor arm semihosting enable
+monitor halt
+monitor flash write_image erase ../startup_code/final.elf
+monitor reset
+Reset button on STM32
